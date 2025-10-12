@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo", sans-serif;
+}
+/* --------GLOBAL--------  */
+.clr {
+  clear: both;
+}
+/* --------start with navBar--------  */
+
+nav {
+  background-color: #f5f3ff;
+  height: 10vh;
+  /* border-bottom: #333 solid 1px; */
+  position: sticky;
+  z-index: 1;
+}
+.nav-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+nav .nav-logo {
+  float: left;
+  text-align: center;
+}
+nav .nav-logo img {
+  width: 13%;
+}
+.nav-links {
+  text-align: center;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+  /* text-align: center; */
+}
+.nav-links li {
+  list-style: none;
+  display: inline-block;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #383642;
+  font-size: 16px;
+  margin-left: 20px;
+  display: block;
+  font-weight: 500;
+}
+.logo-txt {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin-left: 10px;
+}
+/* --------Start with the hero section--------  */
+.hero-section {
+  height: 90vh;
+  /* border: 4px solid red; */
+  background-color: #ffffff;
+}
+
+.hero-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px;
+  
+}
+.hero-img {
+  width: 45%;
+  float: left;
+  text-align: center;
+  border: 2px solid #edeff1;
+  position: relative;
+  border-radius: 16px;
+  padding: 10px;
+}
+.sale {
+  position: absolute;
+
+  background-color: #8e51ff;
+  color: #fff;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px;
+  top: 30px;
+  left: 40px;
+}
+.hero-img img {
+  width: 95%;
+  /* height: 90%; */
+  border-radius: 16px;
+}
+.hero-content {
+  width: 50%;
+  float: right;
+}
+.spans {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.sales {
+  background-color: #a684ff;
+  color: #fff;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px;
+  margin-right: 5px;
+}
+.hero-txt {
+  margin-bottom: 20px;
+}
+.hero-txt h1 {
+  color: #333333;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.hero-txt h1 span {
+  color: #a684ff;
+}
+.hero-txt p {
+  color: #333;
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 400;
+}
+.hero-prices {
+  margin-bottom: 20px;
+}
+.peices {
+  margin-right: 12px;
+}
+.price1 {
+  color: #333;
+  font-size: 32px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+.price2 {
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration: line-through;
+  color: #333;
+  font-weight: 400;
+}
+.price3 {
+  color: #e7000b;
+  background-color: #ffe2e2;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 6px;
+  border-radius: 16px;
+}
+.hero-prices p {
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.btns button {
+  width: 80%;
+  height: 60px;
+  margin-top: 20px;
+}
+.btn1 {
+  background-color: #8e51ff;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #dbdee4;
+  border-radius: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* --------End with the hero section--------  */
+
+/* --------Start with the Compare section--------  */
+
+/* --------End with the Compare section--------  */
