@@ -14,8 +14,11 @@ nav {
   background-color: #f5f3ff;
   height: 10vh;
   /* border-bottom: #333 solid 1px; */
-  position: sticky;
-  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .nav-container {
   width: 90%;
@@ -130,8 +133,8 @@ nav .nav-logo img {
 .hero-prices {
   margin-bottom: 20px;
 }
-.pieces {
-  margin-right: 12px;
+.price {
+  margin-right: 20px;
 }
 .price1 {
   color: #333;
@@ -164,7 +167,7 @@ nav .nav-logo img {
   margin-top: 10px;
 }
 .btns button {
-  width: 80%;
+  width: 90%;
   height: 60px;
   margin-top: 20px;
 }
@@ -177,6 +180,7 @@ nav .nav-logo img {
   font-weight: 600;
   margin-right: 20px;
   cursor: pointer;
+  transition: transform 0.5s;
 }
 .btn2 {
   background-color: #fff;
@@ -187,9 +191,112 @@ nav .nav-logo img {
   font-weight: 600;
   margin-right: 20px;
   cursor: pointer;
+  transition: transform 0.5s;
+}
+.btn1:hover {
+  transform: scale(1.1);
+}
+
+.btn2:hover {
+  transform: scale(1.1);
 }
 /* --------End with the hero section--------  */
 
 /* --------Start with the Compare section--------  */
 
+.compare-section {
+  background-color: #f7f4ff;
+  padding: 80px 0;
+}
+
+.compare-container {
+  width: 85%;
+  margin: auto;
+}
+
+.compare-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.compare-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+.compare-title h2 span {
+  color: #7a3ff6;
+}
+
+.compare-title p {
+  color: #333;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* Edit the Table */
+.compare-table table {
+  width: 100%;
+  /* border-collapse: collapse; */
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 2px solid #000;
+  overflow: hidden;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.compare-table th,
+.compare-table td {
+  padding: 20px 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.compare-table thead {
+  background-color: #fff;
+}
+
+.compare-table thead th {
+  font-weight: 600;
+  color: #333;
+}
+
+.compare-table td:nth-child(2),
+.compare-table th:nth-child(2) {
+  background-color: #ede4ff;
+  color: #4b2eb5;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+.trophy{
+  width: 29%;
+  background-color: #ffffff;
+  color: #00a63e;
+  margin: 0 auto;
+  padding: 18px;
+  border-radius: 12px;
+}
+.trophy-icon {
+  float: left;
+  color: #00c951;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.p-txt{
+  font-size: 18px;
+  font-weight: 700;
+}
+.p-txt2{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
 /* --------End with the Compare section--------  */
+/* Start with Customers Say section  */
+
+/* End with Customers Say section  */
