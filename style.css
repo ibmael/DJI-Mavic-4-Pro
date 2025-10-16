@@ -62,6 +62,7 @@ nav .nav-logo img {
   height: 90vh;
   /* border: 4px solid red; */
   background-color: #ffffff;
+   padding-top: 9vh;
 }
 
 .hero-container {
@@ -273,7 +274,7 @@ nav .nav-logo img {
   border-radius: 10px;
   border: none;
 }
-.trophy{
+.trophy {
   width: 29%;
   background-color: #ffffff;
   color: #00a63e;
@@ -287,16 +288,473 @@ nav .nav-logo img {
   margin-right: 10px;
   font-size: 30px;
 }
-.p-txt{
+.p-txt {
   font-size: 18px;
   font-weight: 700;
 }
-.p-txt2{
+.p-txt2 {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
 }
 /* --------End with the Compare section--------  */
-/* Start with Customers Say section  */
+/* ------------------------------------------ */
+/* --------Start with Customers Say Section--------  */
+.customers-section {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+.customer-container {
+  width: 85%;
+  margin: auto;
+}
+
+.customer-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.customer-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f1f1f;
+  line-height: 40px;
+}
+
+.customer-title h2 span {
+  color: #7a3ff6;
+}
+
+.customer-title p {
+  color: #555;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.customer-content {
+  overflow: visible;
+}
+
+.rating-box {
+  float: left;
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+  position: sticky;
+  top: 100px;
+}
+
+.rating-number {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #333;
+}
+
+.stars {
+  color: gold;
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+.based-text {
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.bar-row {
+  overflow: hidden;
+  margin: 12px 0;
+}
+
+.bar-row .label {
+  float: left;
+  width: 10%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.bar-row .bar {
+  float: left;
+  width: 70%;
+  height: 8px;
+  background: #eaeaea;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 4px;
+}
+
+.bar-row .bar span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 8px;
+  background: gold;
+  border-radius: 5px;
+}
+
+.bar-row .percent {
+  float: right;
+  width: 15%;
+  text-align: right;
+  font-size: 13px;
+  color: #555;
+}
+
+.bottom-info {
+  margin-top: 20px;
+}
+
+.bottom-info div {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.bottom-info span {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+
+.customer-comments {
+  float: right;
+  width: 65%;
+}
+
+.comment-card {
+  width: 45%;
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px 2.5%;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.comment-card h4 {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.comment-card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
 
 /* End with Customers Say section  */
+
+.setup-section {
+  background-color: #f7f4ff;
+  padding: 80px 0;
+}
+
+.setup-container {
+  width: 90%;
+  margin: auto;
+}
+
+.setup-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.setup-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+.setup-title h2 span {
+  color: #7a3ff6;
+}
+
+.setup-title p {
+  color: #555;
+  font-size: 18px;
+}
+
+/* -------- Cards -------- */
+.setup-card {
+  width: 23%;
+  float: left;
+  background: #fff;
+  border-radius: 16px;
+  padding: 15px;
+  margin-right: 2%;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.setup-card:last-child {
+  margin-right: 0;
+}
+
+
+
+.img-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.img-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.img-status {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 12px;
+  transition: 1s transform;
+}
+
+.setup-card:hover img {
+  transform: scale(1.2);
+}
+
+.img-status.accessory {
+  background-color: #00bba7;
+}
+.img-status.essential {
+  background-color: #00c853;
+}
+.img-status.power {
+  background-color: #00b8db;
+}
+.img-status.safety {
+  background-color: #ff7043;
+}
+
+.setup-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+  margin-top: 15px;
+}
+
+.setup-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 22px;
+  margin: 10px 0;
+}
+
+.price-setup{
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+  float: right;
+}
+
+
+button {
+  background-color: #8e51ff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #7a3ff6;
+}
+
+.clr {
+  clear: both;
+}
+.view-all {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.view-btn {
+  background-color: transparent;
+  color: #8e51ff;
+  border: 2px solid #8e51ff;
+  border-radius: 25px;
+  padding: 16px 45px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-btn:hover {
+  background-color: #8e51ff;
+  color: #fff;
+}
+
+/* start with footer  */
+/* --------Start with Footer Section-------- */
+footer {
+  background-color: #101828;
+  color: #fff;
+  padding: 50px 0 20px;
+}
+
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.footer-table td {
+  vertical-align: top;
+  padding: 0 20px;
+}
+
+.brand-col {
+  width: 30%;
+}
+
+.products-col, .support-col, .company-col {
+  width: 20%;
+}
+
+.brand {
+  margin-bottom: 20px;
+}
+
+.brand img{
+  width: 12%;
+  margin-left: 12px;
+}
+
+.brand i {
+  font-size: 32px;
+  color: #8e51ff;
+  float: left;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  float: left;
+  line-height: 32px;
+}
+
+.brand-description {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 50px;
+  clear: both;
+}
+
+.social-icons {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #1e2939;
+  border-radius: 16%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+}
+
+.social-icons a:hover:nth-child(1) {
+  background-color: #1877f2;
+}
+.social-icons a:hover:nth-child(2) {
+  background-color: #1877f2;
+}
+.social-icons a:hover:nth-child(3) {
+  background-color: #e4405f;
+}
+.social-icons a:hover:nth-child(4) {
+  background-color: #ff0000;
+}
+
+.social-icons i {
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer-table h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer-table ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-table li {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-table li:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+.copyright {
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.footer-links {
+  float: right;
+}
+
+.footer-links img{
+  width: 60px;
+  height: 45px;
+  margin-left: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.footer-links a:hover:nth-child(1) {
+ background-color: #1877f2;
+}
+/* --------End with Footer Section-------- */
